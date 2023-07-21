@@ -1,0 +1,22 @@
+#XMLReader
+----------------------
+
+## Introduction
+
+> XMLReader is created to help in reading data from XML file
+
+## Usage
+
+> The user should send the directory path for the folder that contains one or multiple XML files and the name for the tag
+using getElementTextByTagName(String directoryPath, String tagName) method.
+
+>The helper will start searching for the tag in the first file to the next one until the last file in the folder,
+- if the tag found in one of these files, the data will be returned and the helper will stop searching.
+- if the tag not found in neither any file, an ElementNotFoundInXMLException will be returned.
+
+
+
+#Requirements
+> - The getElementTextByTagName method requires the following parameters:
+    1-directory path: String
+    2-tag name: String

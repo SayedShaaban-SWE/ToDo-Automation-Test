@@ -1,0 +1,18 @@
+# ExcelReader
+
+## Introduction
+
+> ExcelReader is created to help in reading cells from excel file
+
+## Code Samples
+
+> By sending the parameters listed below to "readExcelSheet", you'll get cell data per each call to this method
+`readExcelSheet(String fileName, String sheetName, int rowNumber, String headerName)`
+
+> it will return with a cell content and it will be string type
+
+## Installation
+
+> - All you have to do if you want to retrieve  a single cell content is calling the method with its params
+
+> - If you want to retrieve a list of cells, then implement a loop controller to have their values
