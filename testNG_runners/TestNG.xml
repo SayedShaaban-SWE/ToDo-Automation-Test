@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="MakerSuite" allow-return-values="true" parallel="none">
+<suite name="E2E Testing" allow-return-values="true" parallel="none">
     <!-- Test Case 1. Seller MAKER Create Import LC with dependencies -->
-    <test name="Test01" enabled="true">
+    <test name="Add New Card" enabled="true">
         <classes>
-            <class name="step_defs.billing.MyStepdefs"/>
+            <class name="tests.TestCases"/>
         </classes>
     </test>
 </suite>
